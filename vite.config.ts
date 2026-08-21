@@ -1,6 +1,7 @@
-import adapter from '@sveltejs/adapter-auto';
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
+import adapter from '@sveltejs/adapter-cloudflare';
+
 
 export default defineConfig({
 	plugins: [
@@ -18,3 +19,4 @@ export default defineConfig({
 		})
 	]
 });
+
