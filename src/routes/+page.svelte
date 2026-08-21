@@ -1,2 +1,15 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+    import Hero from '$lib/components/Hero.svelte';
+</script>
+
+<svelte:head>
+    <title>Nanami Shiraki | Pianistin & Klavierpädagogin</title>
+    <meta
+            name="description"
+            content="Nanami Shiraki – Pianistin und Klavierpädagogin in Wien."
+    />
+</svelte:head>
+
+<main>
+    <Hero />
+</main>
