@@ -1,10 +1,10 @@
 <script lang="ts">
 
     const navItems = [
-        { label: 'Klavier-Unterricht', href: '/unterricht' },
+        { label: 'Klavier-Unterricht', href: '/teaching' },
         { label: 'Konzerte', href: '/konzerte' },
         { label: 'Musik-Gruppe', href: '/musik-gruppe' },
-        { label: 'Kontakt', href: '/kontakt' }
+        { label: 'Kontakt', href: '/contact' }
     ];
 
     const navLeft = navItems.slice(0, 2);

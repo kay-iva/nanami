@@ -19,7 +19,7 @@
             Musik entdecken, verstehen und mit Freude gestalten.
         </p>
 
-        <a class="cta" href="/unterricht">
+        <a class="cta" href="/teaching">
             <span>Klavierunterricht</span>
             <span class="arrow">↗</span>
         </a>
@@ -52,6 +52,18 @@
 
         object-fit: cover;
         object-position: center;
+
+        animation: heroZoom 28s ease-in-out infinite alternate;
+    }
+
+    @keyframes heroZoom {
+        from {
+            transform: scale(1);
+        }
+
+        to {
+            transform: scale(1.08);
+        }
     }
 
     .overlay {
@@ -194,6 +206,12 @@
 
         .scroll {
             display: none;
+        }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .hero-image {
+            animation: none;
         }
     }
 </style>

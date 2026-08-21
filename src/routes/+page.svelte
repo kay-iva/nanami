@@ -1,6 +1,7 @@
 <script lang="ts">
     import Hero from '$lib/components/Hero.svelte';
     import About from '$lib/components/About.svelte'
+    import Teaching from '$lib/components/Teaching.svelte'
 </script>
 
 <svelte:head>
@@ -14,4 +15,5 @@
 <main>
     <Hero />
     <About />
+    <Teaching />
 </main>

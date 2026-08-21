@@ -204,7 +204,7 @@
                     Umfeld musikalisch tätig.
                 </p>
 
-                <a href="/unterricht" class="text-link">
+                <a href="/teaching" class="text-link">
                     <span>Mehr über meinen Unterricht</span>
                     <span>↗</span>
                 </a>
